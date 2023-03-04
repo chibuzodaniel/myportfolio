@@ -314,8 +314,12 @@ ul {
 .about .about-content .about-text h3 span {
   color: var(--skin-color);
 }
+span{
+  color: var(--skin-color);
+  font-weight: 700;
+}
 .about .about-content .about-text p {
-  font-size: 16px;
+  font-size: 0.9rem;
   line-height: 25px;
   color: var(--text-black-700);
 }
@@ -368,6 +372,7 @@ ul {
   font-size: 16px;
   color: var(--text-black-900);
   text-transform: capitalize;
+  /* background-color: red; */
 }
 .about .about-content .skills .skill-item .progress {
   background-color: var(--bg-back-50);
@@ -474,7 +479,7 @@ ul {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: var(--text-black-900);
 }
 .about .about-content .timeline .timeline-text {
@@ -482,6 +487,7 @@ ul {
   font-size: 16px;
   text-align: justify;
   color: var(--text-black-700);
+  
 }
 
 /* service */
